@@ -17,4 +17,6 @@ RUN apt-get update && \
 
 COPY runner.sh /app/runner.sh
 
+RUN mkdir /export
+
 CMD /app/runner.sh
